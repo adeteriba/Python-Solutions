@@ -1,0 +1,7 @@
+# Module 2 coding assignment on Edx
+
+fish_name = input('Enter fish name: ')
+fish_cost = input("Enter the fish price: ")
+def fish_type(fish):
+    return fish
+print('Fish Type:',fish_name,'costs',fish_cost)
