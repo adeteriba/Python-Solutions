@@ -1,0 +1,8 @@
+# Module 3 exam on Edx
+cheese = input('Enter the cheese order weight (numeric value): ')
+if (float(cheese))>100:
+    print(float(cheese),'is more than currently available stock')
+elif(float(cheese))<0.25:
+    print(float(cheese),'is below the minium order amount')
+else:
+    print((float(cheese))*7.99)
