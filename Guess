@@ -1,0 +1,11 @@
+# The user will ask the user to enter a nuber untill the guess is correct
+number_guess = '0'
+secret_number = '5'
+
+while True:
+    number_guess = input("Enter a number: ")
+    if number_guess == secret_number:
+        print('Yes',number_guess,"is correct!\n")
+        break
+    else:
+        print(number_guess,'is incorrect!\n')
