@@ -17,6 +17,7 @@ def weather(x):
         print('Too hot, cant move')
     if(int(x)<0 or int(x)>45):
         print('Not a valid number!')
+        return ' '
         
 print(weather(x))
     
